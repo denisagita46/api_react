@@ -33,7 +33,7 @@ class ProfilController extends Controller
 		$profile->slug 			= Str::random(20);
 		$profile->save();
 		
-		return "data berhasil create";
+		return "data berhasil create database";
 	
 	}
 }
